@@ -63,6 +63,16 @@ body {
     background-color: #C0B9AE;
 }
 
+@media (max-width: 600px){
+    .quem_somos {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+
 .historia {
     flex-direction: column;
     align-items: center;
@@ -159,8 +169,11 @@ body {
 
 .conjunto {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .individuo_time {
@@ -202,7 +215,7 @@ body {
     align-content: center;
     background-color: #1E1E1E;
     width: 100%;
-    margin: 25px;
+    
 }
 
 .titulo_produtos h1 {
@@ -211,4 +224,58 @@ body {
     color: white;
     padding-top: 7px;
     
+}
+.janela_produtos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conjunto_produtos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.produto img {
+    width: 300px;
+    
+}
+
+.foto_produto {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 50px;
+    border: 1px solid #767A79;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 3px rgba(31, 30, 30, 0.5);
+}
+
+.produto h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size:25px;
+    color: #1E1E1E;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.produto h3 {
+    font-family: 'Arbutus Slab', serif;
+    font-size: 25px;
+    color: #1E1E1E;
+    padding: 4px;
+
 }
