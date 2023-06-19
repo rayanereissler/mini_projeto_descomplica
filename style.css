@@ -57,14 +57,14 @@ body {
     margin: auto;
 }
 
-.quem_somos {
+#quem_somos {
     display: flex;
     flex-direction: row;
     background-color: #C0B9AE;
 }
 
 @media (max-width: 600px){
-    .quem_somos {
+    #quem_somos {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -141,7 +141,7 @@ body {
     border: 2px solid #b66c06;
 }
 
-.setor_time {
+#setor_time {
     display: flex;
     flex-direction: column;
     background-color: #c9c9c9;
@@ -225,10 +225,11 @@ body {
     padding-top: 7px;
     
 }
-.janela_produtos {
+#janela_produtos {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #c9c9c9;
 }
 
 .conjunto_produtos {
@@ -277,5 +278,42 @@ body {
     font-size: 25px;
     color: #1E1E1E;
     padding: 4px;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #1E1E1E;
+}
+
+.lado_esquerdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 20px;
+    align-content: center;
+    width: 50%;
+}
+
+.lado_esquerdo p {
+    font-family: 'Roboto', sans-serif;
+    font-size:17px;
+    color: white;
+    font-weight: bold;
+}
+
+.lado_direito{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 20px;
+    width: 50%;
+    align-items: center;
+}
+
+.lado_direito img {
+    height: 30px;
+    padding-left: 30px;
 
 }
