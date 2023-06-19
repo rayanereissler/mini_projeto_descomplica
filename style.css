@@ -8,7 +8,6 @@
 nav {
     width: 100%;
     margin: 0;
-    /* padding: 10px; */
     background-color: #1E1E1E;
 }
 
@@ -20,16 +19,17 @@ nav {
 }
 
 .cabeçalho img {
-    width: 30%;
+    height: 150px;
     margin-left: 15px;
     
 }
 
 
 .navegadores ul {
+    display: flex;
+    flex-direction: row;
     list-style: none;
     padding: 0;
-    margin-right: 15px;
     text-align: right;
     justify-content: flex-end;
     
@@ -38,7 +38,7 @@ nav {
 .navegadores ul li {
     display: inline-block;
     flex-wrap: wrap;
-    margin-right: 10px;
+    padding-right: 25px;
     color: white;
     font-family: 'Arbutus Slab', serif;
     font-size: 13px;
