@@ -162,7 +162,7 @@ body {
 
 .historia_enquadro h1 {
     font-family: 'Arbutus Slab', serif;
-    font-size: 35px;
+    font-size: 25px;
     text-align: left;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
@@ -253,7 +253,7 @@ body {
 
 .titulo h1 {
     font-family: 'Arbutus Slab', serif;
-    font-size: 30px;
+    font-size: 25px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -288,7 +288,7 @@ body {
 
 .individuo_time img {
     border-radius: 50%;
-    height: 200px;
+    height: 190px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
     border: 2px solid #b66c06;
 }
@@ -364,7 +364,7 @@ body {
 }
 
 .produto img {
-    width: 300px;   
+    width: 270px;   
 }
 
 @media (max-width: 600px){
@@ -384,7 +384,7 @@ body {
 .produto {
     display: flex;
     flex-direction: column;
-    margin: 25px 50px;
+    margin: 25px 30px;
     border: 1px solid #767A79;
     justify-content: center;
     align-items: center;
